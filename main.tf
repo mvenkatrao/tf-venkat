@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "securitygroups" {
-  name        = "securitygroup"
+  name        = "securitygroups"
   description = "security group for module"
 
   ingress {
