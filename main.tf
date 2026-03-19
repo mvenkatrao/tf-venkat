@@ -2,7 +2,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-resource "aws_security_group" "securitygroup" {
+resource "aws_security_group" "securitygroups" {
   name        = "securitygroup"
   description = "security group for module"
 
